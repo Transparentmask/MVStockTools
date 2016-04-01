@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo `dirname $0`
+cd `dirname $0`
+
+python stockQuotes.py
+
